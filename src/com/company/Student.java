@@ -15,9 +15,13 @@ public class Student {
         studentID = nextID;
         nextID++;
 
-
     }
-public void takeClass(int credits, float grade){
+
+    public Student(Object name) {
+    }
+
+
+    public void takeClass(int credits, float grade){
 
 }
 public void changeAdvisor(Professor newAdvisor){

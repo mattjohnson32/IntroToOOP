@@ -12,7 +12,11 @@ public class Professor {
         adviseeList = new ArrayList<Student>();
 
     }
-public void addAdvisee(Student newAdvisee){
+
+    public Professor(Object professorName) {
+    }
+
+    public void addAdvisee(Student newAdvisee){
         adviseeList.add(newAdvisee);
 }
 public void removeAdvisee(Student formerAdvisee){
