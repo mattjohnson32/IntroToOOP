@@ -6,6 +6,7 @@ public class Professor {
     private ArrayList<Student> adviseeList;
     private String name;
     private String department;
+
     public Professor(String profName, String dept){
         name = profName;
         department = dept;
@@ -13,8 +14,6 @@ public class Professor {
 
     }
 
-    public Professor(Object professorName) {
-    }
 
     public void addAdvisee(Student newAdvisee){
         adviseeList.add(newAdvisee);
